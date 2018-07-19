@@ -623,7 +623,7 @@ class AssetSerializer(serializers.HyperlinkedModelSerializer):
                     deployed=True
                 ).first()
                 if deployed_version:
-                    return deployed_verion.uid
+                    return deployed_version.uid
                 else:
                     return None
         else:
