@@ -29,6 +29,7 @@ from formpack import FormPack
 from formpack.utils.flatten_content import flatten_content
 from formpack.utils.json_hash import json_hash
 from formpack.utils.spreadsheet_content import flatten_to_spreadsheet_content
+from asset_version import AssetVersion
 from kpi.utils.standardize_content import (standardize_content,
                                            needs_standardization,
                                            standardize_content_in_place)
